@@ -66,3 +66,4 @@ bash scripts/deploy.sh
 - Application code is separated in `/app` for better organization
 - Scripts are centralized in `/scripts` for automation
 
+

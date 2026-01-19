@@ -125,7 +125,7 @@ MIT License - feel free to use this as a template for your own portfolio!
 **Ismael Yasin**
 - Portfolio: [Live Site](https://gentle-bay-06d4d1a03.6.azurestaticapps.net/)
 - LinkedIn: [ismael-yasin-782bbb320](https://linkedin.com/in/ismael-yasin-782bbb320/)
-- GitHub: [@isoo-tech](https://github.com/isoo-tech)
+- GitHub: [@ismaelyasindev](https://github.com/ismaelyasindev)
 
 ---
 
