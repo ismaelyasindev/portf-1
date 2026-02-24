@@ -19,6 +19,10 @@ terraform/*_override.tf.json
 terraform/.terraformrc
 terraform/terraform.rc
 
+# Python
+.venv/
+venv/
+
 # Environment variables
 .env
 .env.local
@@ -48,6 +52,4 @@ build/
 tmp/
 temp/
 
-# Cursor debug files
-.cursor/
 
