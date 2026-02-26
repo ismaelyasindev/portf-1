@@ -8,7 +8,7 @@ The application is deployed and accessible at:
 
 [https://www.ismaelyasin.site](https://www.ismaelyasin.site)
 
-## Overview
+## Overview 
 
 This project showcases a production ready deployment of a static portfolio website on Azure infrastructure. The site displays professional experience, skills, projects, and certifications in a modern responsive design with dark and light mode. The entire infrastructure is defined through Terraform, and deployments are automated through GitHub Actions workflows on every push to the main branch.
 
