@@ -1266,6 +1266,26 @@
             
             <div class="projects-grid">
                 <div class="project-card">
+                    <h3 class="project-title">Threat Composer ECS Deployment</h3>
+                    <p class="project-description">
+                        Provisioned AWS infrastructure with Terraform and CI/CD, deploying a threat modelling application on ECS Fargate behind an Application Load Balancer with Route 53, ACM, and a VPC spanning two availability zones. Implemented GitHub Actions pipelines with OIDC, Trivy IaC scanning, manual approval gates, and modular Terraform using S3 remote state, DynamoDB locking, and private subnet isolation. Impact: Reduced manual deployment effort from hours to minutes, removed long lived AWS credentials, and used Fargate to avoid server management overhead. Outcome: Achieved repeatable, secure deployments with automated security checks and a clear path to safely tear down infrastructure when required.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">AWS</span>
+                        <span class="project-tag">Terraform</span>
+                        <span class="project-tag">ECS Fargate</span>
+                        <span class="project-tag">GitHub Actions</span>
+                        <span class="project-tag">OIDC</span>
+                        <span class="project-tag">Trivy</span>
+                        <span class="project-tag">CI/CD</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ismaelyasindev/end-to-end-Threat-composer-ecs" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
                     <h3 class="project-title">AWS Cost Dashboard Deployment</h3>
                     <p class="project-description">
                         Provisioned cloud infrastructure using Terraform to deploy a containerised application on AWS ECS Fargate with Application Load Balancer, Route53 DNS, and VPC networking across multiple availability zones. Implemented CI/CD pipelines using GitHub Actions with OIDC authentication for secure AWS deployments, enabling automated Docker image builds, ECR pushes, and infrastructure updates with manual approval gates. Applied Infrastructure as Code best practices with Terraform modules, remote state management in S3, and DynamoDB locking for scalable and reproducible deployments.
